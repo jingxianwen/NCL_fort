@@ -1,0 +1,7 @@
+C NCLFORTSTART
+      subroutine func_read_3D(nx,ny,nz,infil,recbeg,varout)
+      integer nx, ny, nz, recbeg
+      character*(*) infil
+      real varout
+      dimension varout(nx,ny,nz)
+C NCLEND
