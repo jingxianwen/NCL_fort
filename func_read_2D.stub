@@ -1,0 +1,7 @@
+C NCLFORTSTART
+      subroutine func_read_2D(nx,ny,infil,recbeg,varout)
+      integer nx, ny, recbeg
+      character*(*) infil
+      real varout
+      dimension varout(nx,ny)
+C NCLEND

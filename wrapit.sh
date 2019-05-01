@@ -1,1 +1,1 @@
-WRAPIT func_read_3D.stub func_read_3D.f90 
+WRAPIT func_read_2D.stub func_read_2D.f90 
